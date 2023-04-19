@@ -1,0 +1,377 @@
+19:58:52.277 [restartedMain] INFO  b.c.c.ApiPedidosApplication - Starting ApiPedidosApplication using Java 20 with PID 29592 (C:\workspace_java_arq\api_pedidos\target\classes started by Samsung in C:\workspace_java_arq\api_pedidos)
+19:58:52.281 [restartedMain] INFO  b.c.c.ApiPedidosApplication - No active profile set, falling back to 1 default profile: "default"
+19:58:52.379 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+19:58:52.380 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+19:58:54.081 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+19:58:54.094 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+19:58:54.095 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:58:54.095 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+19:58:54.237 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:58:54.240 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1854 ms
+19:58:55.437 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+19:58:55.457 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+19:58:55.495 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+19:58:55.511 [restartedMain] INFO  b.c.c.ApiPedidosApplication - Started ApiPedidosApplication in 3.644 seconds (process running for 4.617)
+20:01:55.492 [http-nio-8084-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:01:55.493 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:01:55.494 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+20:01:56.060 [http-nio-8084-exec-7] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: br.com.cotiinformatica.controllers.PedidosController
+20:01:56.242 [http-nio-8084-exec-7] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 211 ms
+20:05:39.743 [http-nio-8084-exec-2] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [pkc-6ojv2.us-west4.gcp.confluent.cloud:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.IntegerSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = [hidden]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = PLAIN
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = SASL_SSL
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+20:05:39.793 [http-nio-8084-exec-2] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=producer-1] Instantiated an idempotent producer.
+20:05:40.714 [http-nio-8084-exec-2] INFO  o.a.k.c.s.a.AbstractLogin - Successfully logged in.
+20:05:40.902 [http-nio-8084-exec-2] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.3.2
+20:05:40.902 [http-nio-8084-exec-2] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: b66af662e61082cb
+20:05:40.903 [http-nio-8084-exec-2] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1681772740900
+20:05:43.149 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Resetting the last seen epoch of partition pagamentos-0 to 0 since the associated topicId changed from null to uB8x70SERtq3oj9z63z_bA
+20:05:43.150 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Resetting the last seen epoch of partition pagamentos-5 to 0 since the associated topicId changed from null to uB8x70SERtq3oj9z63z_bA
+20:05:43.150 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Resetting the last seen epoch of partition pagamentos-4 to 0 since the associated topicId changed from null to uB8x70SERtq3oj9z63z_bA
+20:05:43.150 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Resetting the last seen epoch of partition pagamentos-1 to 0 since the associated topicId changed from null to uB8x70SERtq3oj9z63z_bA
+20:05:43.150 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Resetting the last seen epoch of partition pagamentos-2 to 0 since the associated topicId changed from null to uB8x70SERtq3oj9z63z_bA
+20:05:43.150 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Resetting the last seen epoch of partition pagamentos-3 to 0 since the associated topicId changed from null to uB8x70SERtq3oj9z63z_bA
+20:05:43.154 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Cluster ID: lkc-m8d8d1
+20:05:43.156 [kafka-producer-network-thread | producer-1] INFO  o.a.k.c.p.i.TransactionManager - [Producer clientId=producer-1] ProducerId set to 1234451 with epoch 0
+20:05:43.173 [http-nio-8084-exec-2] INFO  b.c.c.controllers.PedidosController - {"valor":100.50,"cliente":{"nome":"João Silva","cpf":"123.456.789-00","email":"joao.silva@gmail.com","telefone":"(11) 98765-4321","endereco":{"logradouro":"Rua das Flores","complemento":"Apartamento 123","numero":"456","bairro":"Jardim das Rosas","cidade":"São Paulo","estado":"SP","cep":"12345-678"}},"cobranca":{"numeroCartao":"1234 5678 9012 3456","nomeImpressoNoCartao":"JOAO SILVA","mesValidade":12,"anoValidade":25,"codigoSeguranca":123,"valor":100.50},"produtos":[{"nome":"Camiseta","preco":50.25,"quantidade":1},{"nome":"Calça Jeans","preco":50.25,"quantidade":1}]}
+20:14:43.420 [kafka-producer-network-thread | producer-1] INFO  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Node -1 disconnected.
+20:38:42.740 [RMI TCP Connection(9)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+20:38:42.740 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+20:38:42.740 [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+20:38:42.740 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+20:38:42.740 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+20:38:42.794 [RMI TCP Connection(9)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8084"]
+20:38:42.794 [RMI TCP Connection(9)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+20:38:42.802 [RMI TCP Connection(9)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+20:38:42.815 [RMI TCP Connection(9)-127.0.0.1] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [kafka-producer-network-thread | producer-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/sun.nio.ch.WEPoll.wait(Native Method)
+ java.base/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:114)
+ java.base/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+ java.base/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:142)
+ org.apache.kafka.common.network.Selector.select(Selector.java:873)
+ org.apache.kafka.common.network.Selector.poll(Selector.java:465)
+ org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:560)
+ org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:328)
+ org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:243)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+20:38:42.818 [RMI TCP Connection(9)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8084"]
+20:38:42.827 [RMI TCP Connection(9)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8084"]
+20:38:42.832 [RMI TCP Connection(9)-127.0.0.1] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+20:38:42.838 [RMI TCP Connection(9)-127.0.0.1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+20:38:42.838 [RMI TCP Connection(9)-127.0.0.1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+20:38:42.838 [RMI TCP Connection(9)-127.0.0.1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+20:38:42.839 [RMI TCP Connection(9)-127.0.0.1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.producer for producer-1 unregistered
+21:56:58.447 [restartedMain] INFO  b.c.c.ApiPedidosApplication - Starting ApiPedidosApplication using Java 20 with PID 4040 (C:\workspace_java_arq\api_pedidos\target\classes started by Samsung in C:\workspace_java_arq\api_pedidos)
+21:56:58.451 [restartedMain] INFO  b.c.c.ApiPedidosApplication - No active profile set, falling back to 1 default profile: "default"
+21:56:58.556 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+21:56:58.556 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+21:56:59.973 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+21:56:59.985 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+21:56:59.986 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+21:56:59.986 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+21:57:00.092 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:57:00.094 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1535 ms
+21:57:03.096 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+21:57:03.112 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+21:57:03.871 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+21:57:03.899 [restartedMain] INFO  b.c.c.ApiPedidosApplication - Started ApiPedidosApplication in 5.929 seconds (process running for 7.081)
+21:57:44.988 [http-nio-8084-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:57:44.988 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+21:57:44.989 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+21:57:45.388 [http-nio-8084-exec-1] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [pkc-6ojv2.us-west4.gcp.confluent.cloud:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.IntegerSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = [hidden]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = PLAIN
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = SASL_SSL
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+21:57:45.446 [http-nio-8084-exec-1] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=producer-1] Instantiated an idempotent producer.
+21:57:45.570 [http-nio-8084-exec-1] INFO  o.a.k.c.s.a.AbstractLogin - Successfully logged in.
+21:57:45.792 [http-nio-8084-exec-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.3.2
+21:57:45.795 [http-nio-8084-exec-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: b66af662e61082cb
+21:57:45.795 [http-nio-8084-exec-1] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1681779465787
+21:57:48.122 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Resetting the last seen epoch of partition pagamentos-0 to 0 since the associated topicId changed from null to uB8x70SERtq3oj9z63z_bA
+21:57:48.123 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Resetting the last seen epoch of partition pagamentos-5 to 0 since the associated topicId changed from null to uB8x70SERtq3oj9z63z_bA
+21:57:48.123 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Resetting the last seen epoch of partition pagamentos-4 to 0 since the associated topicId changed from null to uB8x70SERtq3oj9z63z_bA
+21:57:48.123 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Resetting the last seen epoch of partition pagamentos-1 to 0 since the associated topicId changed from null to uB8x70SERtq3oj9z63z_bA
+21:57:48.123 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Resetting the last seen epoch of partition pagamentos-2 to 0 since the associated topicId changed from null to uB8x70SERtq3oj9z63z_bA
+21:57:48.123 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Resetting the last seen epoch of partition pagamentos-3 to 0 since the associated topicId changed from null to uB8x70SERtq3oj9z63z_bA
+21:57:48.126 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Cluster ID: lkc-m8d8d1
+21:57:48.128 [kafka-producer-network-thread | producer-1] INFO  o.a.k.c.p.i.TransactionManager - [Producer clientId=producer-1] ProducerId set to 1229441 with epoch 0
+21:57:48.144 [http-nio-8084-exec-1] INFO  b.c.c.controllers.PedidosController - {"valor":100.50,"cliente":{"nome":"João Silva","cpf":"123.456.789-00","email":"joao.silva@gmail.com","telefone":"(11) 98765-4321","endereco":{"logradouro":"Rua das Flores","complemento":"Apartamento 123","numero":"456","bairro":"Jardim das Rosas","cidade":"São Paulo","estado":"SP","cep":"12345-678"}},"cobranca":{"numeroCartao":"1234 5678 9012 3456","nomeImpressoNoCartao":"JOAO SILVA","mesValidade":12,"anoValidade":25,"codigoSeguranca":123,"valor":100.50},"produtos":[{"nome":"Camiseta","preco":50.25,"quantidade":1},{"nome":"Calça Jeans","preco":50.25,"quantidade":1}]}
+22:06:48.355 [kafka-producer-network-thread | producer-1] INFO  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Node -1 disconnected.
+22:06:53.559 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+22:06:53.578 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8084"]
+22:06:53.578 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+22:06:53.580 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+22:06:53.584 [RMI TCP Connection(2)-127.0.0.1] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [kafka-producer-network-thread | producer-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/sun.nio.ch.WEPoll.wait(Native Method)
+ java.base/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:114)
+ java.base/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+ java.base/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:142)
+ org.apache.kafka.common.network.Selector.select(Selector.java:873)
+ org.apache.kafka.common.network.Selector.poll(Selector.java:465)
+ org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:560)
+ org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:328)
+ org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:243)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+22:06:53.586 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8084"]
+22:06:53.590 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8084"]
+22:06:53.593 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+22:06:53.599 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+22:06:53.600 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+22:06:53.600 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+22:06:53.600 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.producer for producer-1 unregistered
+14:19:12.324 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [br.com.cotiinformatica.ApiPedidosApplicationTests]: ApiPedidosApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:19:12.443 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration br.com.cotiinformatica.ApiPedidosApplication for test class br.com.cotiinformatica.ApiPedidosApplicationTests
+14:19:13.044 [main] INFO  b.c.c.ApiPedidosApplicationTests - Starting ApiPedidosApplicationTests using Java 17.0.7 with PID 27236 (started by Samsung in C:\workspace_java_arq\api_pedidos)
+14:19:13.046 [main] INFO  b.c.c.ApiPedidosApplicationTests - No active profile set, falling back to 1 default profile: "default"
+14:19:15.700 [main] INFO  b.c.c.ApiPedidosApplicationTests - Started ApiPedidosApplicationTests in 2.996 seconds (process running for 4.355)
+14:48:04.244 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [br.com.cotiinformatica.ApiPedidosApplicationTests]: ApiPedidosApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:48:04.366 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration br.com.cotiinformatica.ApiPedidosApplication for test class br.com.cotiinformatica.ApiPedidosApplicationTests
+14:48:04.923 [main] INFO  b.c.c.ApiPedidosApplicationTests - Starting ApiPedidosApplicationTests using Java 17.0.7 with PID 29316 (started by Samsung in C:\workspace_java_arq\api_pedidos)
+14:48:04.924 [main] INFO  b.c.c.ApiPedidosApplicationTests - No active profile set, falling back to 1 default profile: "default"
+14:48:07.563 [main] INFO  b.c.c.ApiPedidosApplicationTests - Started ApiPedidosApplicationTests in 2.961 seconds (process running for 4.347)
+15:16:14.983 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [br.com.cotiinformatica.ApiPedidosApplicationTests]: ApiPedidosApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:16:15.136 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration br.com.cotiinformatica.ApiPedidosApplication for test class br.com.cotiinformatica.ApiPedidosApplicationTests
+15:16:15.716 [main] INFO  b.c.c.ApiPedidosApplicationTests - Starting ApiPedidosApplicationTests using Java 17.0.7 with PID 16372 (started by Samsung in C:\workspace_java_arq\api_pedidos)
+15:16:15.717 [main] INFO  b.c.c.ApiPedidosApplicationTests - No active profile set, falling back to 1 default profile: "default"
+15:16:20.607 [main] INFO  b.c.c.ApiPedidosApplicationTests - Started ApiPedidosApplicationTests in 5.236 seconds (process running for 6.52)
+15:18:36.305 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [br.com.cotiinformatica.ApiPedidosApplicationTests]: ApiPedidosApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:18:36.419 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration br.com.cotiinformatica.ApiPedidosApplication for test class br.com.cotiinformatica.ApiPedidosApplicationTests
+15:18:36.916 [main] INFO  b.c.c.ApiPedidosApplicationTests - Starting ApiPedidosApplicationTests using Java 17.0.7 with PID 2104 (started by Samsung in C:\workspace_java_arq\api_pedidos)
+15:18:36.918 [main] INFO  b.c.c.ApiPedidosApplicationTests - No active profile set, falling back to 1 default profile: "default"
+15:18:39.421 [main] INFO  b.c.c.ApiPedidosApplicationTests - Started ApiPedidosApplicationTests in 2.805 seconds (process running for 4.046)
+15:23:41.302 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [br.com.cotiinformatica.ApiPedidosApplicationTests]: ApiPedidosApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:23:41.457 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration br.com.cotiinformatica.ApiPedidosApplication for test class br.com.cotiinformatica.ApiPedidosApplicationTests
+15:23:42.146 [main] INFO  b.c.c.ApiPedidosApplicationTests - Starting ApiPedidosApplicationTests using Java 17.0.7 with PID 27740 (started by Samsung in C:\workspace_java_arq\api_pedidos)
+15:23:42.147 [main] INFO  b.c.c.ApiPedidosApplicationTests - No active profile set, falling back to 1 default profile: "default"
+15:23:45.311 [main] INFO  b.c.c.ApiPedidosApplicationTests - Started ApiPedidosApplicationTests in 3.546 seconds (process running for 5.132)
+15:37:09.850 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [br.com.cotiinformatica.ApiPedidosApplicationTests]: ApiPedidosApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:37:09.987 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration br.com.cotiinformatica.ApiPedidosApplication for test class br.com.cotiinformatica.ApiPedidosApplicationTests
+15:37:10.595 [main] INFO  b.c.c.ApiPedidosApplicationTests - Starting ApiPedidosApplicationTests using Java 17.0.7 with PID 16844 (started by Samsung in C:\workspace_java_arq\api_pedidos)
+15:37:10.597 [main] INFO  b.c.c.ApiPedidosApplicationTests - No active profile set, falling back to 1 default profile: "default"
+15:37:13.087 [main] INFO  b.c.c.ApiPedidosApplicationTests - Started ApiPedidosApplicationTests in 2.808 seconds (process running for 4.34)
+15:38:50.812 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [br.com.cotiinformatica.ApiPedidosApplicationTests]: ApiPedidosApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:38:50.924 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration br.com.cotiinformatica.ApiPedidosApplication for test class br.com.cotiinformatica.ApiPedidosApplicationTests
+15:38:51.434 [main] INFO  b.c.c.ApiPedidosApplicationTests - Starting ApiPedidosApplicationTests using Java 17.0.7 with PID 11724 (started by Samsung in C:\workspace_java_arq\api_pedidos)
+15:38:51.435 [main] INFO  b.c.c.ApiPedidosApplicationTests - No active profile set, falling back to 1 default profile: "default"
+15:38:53.597 [main] INFO  b.c.c.ApiPedidosApplicationTests - Started ApiPedidosApplicationTests in 2.474 seconds (process running for 3.725)
+15:56:40.816 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [br.com.cotiinformatica.ApiPedidosApplicationTests]: ApiPedidosApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:56:40.944 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration br.com.cotiinformatica.ApiPedidosApplication for test class br.com.cotiinformatica.ApiPedidosApplicationTests
+15:56:41.523 [main] INFO  b.c.c.ApiPedidosApplicationTests - Starting ApiPedidosApplicationTests using Java 17.0.7 with PID 18352 (started by Samsung in C:\workspace_java_arq\api_pedidos)
+15:56:41.524 [main] INFO  b.c.c.ApiPedidosApplicationTests - No active profile set, falling back to 1 default profile: "default"
+15:56:44.406 [main] INFO  b.c.c.ApiPedidosApplicationTests - Started ApiPedidosApplicationTests in 3.21 seconds (process running for 4.684)
+16:04:38.805 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [br.com.cotiinformatica.ApiPedidosApplicationTests]: ApiPedidosApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:04:38.954 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration br.com.cotiinformatica.ApiPedidosApplication for test class br.com.cotiinformatica.ApiPedidosApplicationTests
+16:04:39.563 [main] INFO  b.c.c.ApiPedidosApplicationTests - Starting ApiPedidosApplicationTests using Java 17.0.7 with PID 22572 (started by Samsung in C:\workspace_java_arq\api_pedidos)
+16:04:39.564 [main] INFO  b.c.c.ApiPedidosApplicationTests - No active profile set, falling back to 1 default profile: "default"
+16:04:41.974 [main] INFO  b.c.c.ApiPedidosApplicationTests - Started ApiPedidosApplicationTests in 2.783 seconds (process running for 4.168)
+16:11:58.964 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [br.com.cotiinformatica.ApiPedidosApplicationTests]: ApiPedidosApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:11:59.086 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration br.com.cotiinformatica.ApiPedidosApplication for test class br.com.cotiinformatica.ApiPedidosApplicationTests
+16:11:59.711 [main] INFO  b.c.c.ApiPedidosApplicationTests - Starting ApiPedidosApplicationTests using Java 17.0.7 with PID 1712 (started by Samsung in C:\workspace_java_arq\api_pedidos)
+16:11:59.712 [main] INFO  b.c.c.ApiPedidosApplicationTests - No active profile set, falling back to 1 default profile: "default"
+16:12:02.398 [main] INFO  b.c.c.ApiPedidosApplicationTests - Started ApiPedidosApplicationTests in 3.049 seconds (process running for 4.616)
+16:17:56.294 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [br.com.cotiinformatica.ApiPedidosApplicationTests]: ApiPedidosApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:17:56.400 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration br.com.cotiinformatica.ApiPedidosApplication for test class br.com.cotiinformatica.ApiPedidosApplicationTests
+16:17:56.952 [main] INFO  b.c.c.ApiPedidosApplicationTests - Starting ApiPedidosApplicationTests using Java 17.0.7 with PID 2372 (started by Samsung in C:\workspace_java_arq\api_pedidos)
+16:17:56.955 [main] INFO  b.c.c.ApiPedidosApplicationTests - No active profile set, falling back to 1 default profile: "default"
+16:17:59.446 [main] INFO  b.c.c.ApiPedidosApplicationTests - Started ApiPedidosApplicationTests in 2.816 seconds (process running for 5.133)
+16:20:34.154 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [br.com.cotiinformatica.ApiPedidosApplicationTests]: ApiPedidosApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:20:34.261 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration br.com.cotiinformatica.ApiPedidosApplication for test class br.com.cotiinformatica.ApiPedidosApplicationTests
+16:20:34.744 [main] INFO  b.c.c.ApiPedidosApplicationTests - Starting ApiPedidosApplicationTests using Java 17.0.7 with PID 4520 (started by Samsung in C:\workspace_java_arq\api_pedidos)
+16:20:34.746 [main] INFO  b.c.c.ApiPedidosApplicationTests - No active profile set, falling back to 1 default profile: "default"
+16:20:37.049 [main] INFO  b.c.c.ApiPedidosApplicationTests - Started ApiPedidosApplicationTests in 2.602 seconds (process running for 3.763)
+16:28:30.904 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [br.com.cotiinformatica.ApiPedidosApplicationTests]: ApiPedidosApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:28:31.017 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration br.com.cotiinformatica.ApiPedidosApplication for test class br.com.cotiinformatica.ApiPedidosApplicationTests
+16:28:31.596 [main] INFO  b.c.c.ApiPedidosApplicationTests - Starting ApiPedidosApplicationTests using Java 17.0.7 with PID 10640 (started by Samsung in C:\workspace_java_arq\api_pedidos)
+16:28:31.598 [main] INFO  b.c.c.ApiPedidosApplicationTests - No active profile set, falling back to 1 default profile: "default"
+16:28:34.209 [main] INFO  b.c.c.ApiPedidosApplicationTests - Started ApiPedidosApplicationTests in 2.966 seconds (process running for 4.277)
+16:31:37.460 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [br.com.cotiinformatica.ApiPedidosApplicationTests]: ApiPedidosApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:31:37.564 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration br.com.cotiinformatica.ApiPedidosApplication for test class br.com.cotiinformatica.ApiPedidosApplicationTests
+16:31:38.035 [main] INFO  b.c.c.ApiPedidosApplicationTests - Starting ApiPedidosApplicationTests using Java 17.0.7 with PID 23720 (started by Samsung in C:\workspace_java_arq\api_pedidos)
+16:31:38.037 [main] INFO  b.c.c.ApiPedidosApplicationTests - No active profile set, falling back to 1 default profile: "default"
+16:31:40.523 [main] INFO  b.c.c.ApiPedidosApplicationTests - Started ApiPedidosApplicationTests in 2.762 seconds (process running for 3.891)
+17:02:34.148 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [br.com.cotiinformatica.ApiPedidosApplicationTests]: ApiPedidosApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:02:34.296 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration br.com.cotiinformatica.ApiPedidosApplication for test class br.com.cotiinformatica.ApiPedidosApplicationTests
+17:02:34.987 [main] INFO  b.c.c.ApiPedidosApplicationTests - Starting ApiPedidosApplicationTests using Java 17.0.7 with PID 21644 (started by Samsung in C:\workspace_java_arq\api_pedidos)
+17:02:34.989 [main] INFO  b.c.c.ApiPedidosApplicationTests - No active profile set, falling back to 1 default profile: "default"
+17:02:38.213 [main] INFO  b.c.c.ApiPedidosApplicationTests - Started ApiPedidosApplicationTests in 3.633 seconds (process running for 5.446)
+19:47:42.152 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [br.com.cotiinformatica.ApiPedidosApplicationTests]: ApiPedidosApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:47:42.304 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration br.com.cotiinformatica.ApiPedidosApplication for test class br.com.cotiinformatica.ApiPedidosApplicationTests
+19:47:42.995 [main] INFO  b.c.c.ApiPedidosApplicationTests - Starting ApiPedidosApplicationTests using Java 17.0.7 with PID 13428 (started by Samsung in C:\workspace_java_arq\api_pedidos)
+19:47:42.998 [main] INFO  b.c.c.ApiPedidosApplicationTests - No active profile set, falling back to 1 default profile: "default"
+19:47:46.168 [main] INFO  b.c.c.ApiPedidosApplicationTests - Started ApiPedidosApplicationTests in 3.556 seconds (process running for 5.212)
+19:51:54.808 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [br.com.cotiinformatica.ApiPedidosApplicationTests]: ApiPedidosApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:51:54.964 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration br.com.cotiinformatica.ApiPedidosApplication for test class br.com.cotiinformatica.ApiPedidosApplicationTests
+19:51:55.680 [main] INFO  b.c.c.ApiPedidosApplicationTests - Starting ApiPedidosApplicationTests using Java 20 with PID 16304 (started by Samsung in C:\workspace_java_arq\api_pedidos)
+19:51:55.681 [main] INFO  b.c.c.ApiPedidosApplicationTests - No active profile set, falling back to 1 default profile: "default"
+19:51:58.820 [main] INFO  b.c.c.ApiPedidosApplicationTests - Started ApiPedidosApplicationTests in 3.532 seconds (process running for 5.284)
