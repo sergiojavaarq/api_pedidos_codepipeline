@@ -1,1 +1,1 @@
-web: java -jar api_pedidos.jar
+web: java -jar target/api_pedidos.jar
