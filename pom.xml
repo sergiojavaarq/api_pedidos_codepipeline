@@ -64,14 +64,6 @@
 			<artifactId>spring-boot-starter-logging</artifactId>
 		</dependency>
 
-		<dependency>
-			<groupId>commons_pedidos</groupId>
-			<artifactId>commons_pedidos</artifactId>
-			<version>1.0</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/lib/commons_pedidos_dto_lib.jar</systemPath>
-		</dependency>
-
 	</dependencies>
 
 	<build>

@@ -1,1 +1,0 @@
-web: java -jar target/api_pedidos.jar
